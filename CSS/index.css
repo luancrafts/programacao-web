@@ -1,0 +1,9 @@
+.center-content{
+    background-color: rgba(58, 17, 17, 0.767);
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
