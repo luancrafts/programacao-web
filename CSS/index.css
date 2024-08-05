@@ -1,9 +1,30 @@
-.center-content{
-    background-color: rgba(58, 17, 17, 0.767);
+.base-header-container{
+    background-color: rgba(80, 38, 38, 0.686);
+    padding: 30px; 
+}
+.base-header{
     display: flex;
-    padding: 20px;
-    border-radius: 10px;
-
+    margin-bottom: 250px;
     justify-content: center;
-    align-items: center;
+
+}
+.left-side{
+    justify-content: left;
+    list-style: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+.right-side{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-left: 200px;
+}
+.right-side > p{
+    margin-left: 40px;
+}
+
+.first-content-container{
+    background-color: red;
+    display: flex;
+    justify-content: center;
 }
