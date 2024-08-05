@@ -4,3 +4,9 @@
 body{
     background-color: rgba(112, 42, 42, 0.651);
 }
+header{
+    background: url(https://agropos.com.br/wp-content/uploads/2021/12/Imagem-2023-12-19T152422.003.png) no-repeat center  center/cover;
+    color: white;
+    text-align: center;
+}
+

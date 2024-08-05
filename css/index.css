@@ -1,24 +1,33 @@
 .base-header-container{
     background-color: rgba(80, 38, 38, 0.686);
-    padding: 1em;
-    display: flex;
-    
+    padding: 30px; 
 }
 .base-header{
     display: flex;
+    margin-bottom: 250px;
+    justify-content: center;
+
 }
 .left-side{
     justify-content: left;
     list-style: left;
     font-family: 'Courier New', Courier, monospace;
-    margin-left: 300px;
 }
 .right-side{
     display: flex;
     justify-content: right;
     align-items: right;
-    margin-left: 300px;
+    margin-left: 200px;
 }
 .right-side > p{
     margin-left: 40px;
+}
+
+.first-content-container{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+.first-content{
+    gap: 100px;
 }
