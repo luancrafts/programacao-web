@@ -17,4 +17,11 @@ footer{
     justify-content: center;
     align-items: end;
 }
-
+footer{
+    background-color: rgb(34, 31, 31);
+    padding: 20px;
+}
+footer > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
