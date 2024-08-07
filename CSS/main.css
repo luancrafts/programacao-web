@@ -1,12 +1,20 @@
 *{
-    margin: 0;
+    margin: 0px;
 }
 body{
-    background-color: rgba(112, 42, 42, 0.651);
+    background-color: rgba(255, 255, 255, 0.651);
 }
 header{
+    min-width: 300px;
     background: url(https://agropos.com.br/wp-content/uploads/2021/12/Imagem-2023-12-19T152422.003.png) no-repeat center  center/cover;
     color: white;
     text-align: center;
+}
+footer{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
