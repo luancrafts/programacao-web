@@ -42,11 +42,24 @@
 .first-content-container{
     background-color: #2a997b3b;
     display: flex;
-
     margin: 50px;
     margin-bottom: 5px;
     height: 420px;
 }
+
+.teste{
+    object-fit: cover;
+    width: 1800px;
+    object-position: 0px -100px;
+}
+
+.overflow{
+    margin: 50px;
+    margin-bottom: 5px;
+    height: 420px;
+    overflow: hidden;
+}
+
 .first-content-left{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -132,3 +145,70 @@
     height: 420px;
 }
 
+
+.footer {
+    background-color: #1e3932;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+    margin: 20px;
+}
+
+.footer-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #cba135;
+}
+
+.social-links a {
+    margin-right: 15px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.social-links a img {
+    max-width: 100%;
+    vertical-align: middle;
+    filter: brightness(0) invert(1); /* Inverte a cor do ícone para que apareça em fundos escuros */
+    transition: filter 0.3s;
+}
+
+.social-links a:hover img {
+    filter: brightness(0.8) invert(0.8); /* Efeito ao passar o mouse */
+}
