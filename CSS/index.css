@@ -43,20 +43,24 @@
     background-color: #2a997b3b;
     display: flex;
     margin: 50px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     height: 420px;
+    width: 1400px;
 }
 
 .teste{
     object-fit: cover;
-    width: 1800px;
+    width: 1400px;
     object-position: 0px -100px;
 }
 
 .overflow{
-    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
     margin-bottom: 5px;
-    height: 420px;
+    height: auto;
     overflow: hidden;
 }
 
@@ -75,9 +79,19 @@
     width: 500px;
     max-width: 100%;
 }
+.responsive-image-3{
+    
+    width: 720px;
+}
+
+.responsive-image-2{
+    width: 108%;
+}
+
 .responsive-image-1{
     max-height: auto;
     max-width: auto;
+    width: auto;
 }
 .text-first-container-left > h3{
     text-align: center;
@@ -205,7 +219,7 @@
 .social-links a img {
     max-width: 100%;
     vertical-align: middle;
-    filter: brightness(0) invert(1); /* Inverte a cor do ícone para que apareça em fundos escuros */
+    
     transition: filter 0.3s;
 }
 
