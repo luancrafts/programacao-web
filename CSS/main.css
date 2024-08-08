@@ -1,27 +1,85 @@
 *{
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    color: #1E3932;
+    margin: 32px, 0px, 0px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 12px;
+    border-radius: 24px;
+    margin-top: 16px;
+    font-size: 16px;
+    background-color: transparent;
+    font-weight: bolder;
+    cursor: pointer;
+    border-color: #017143;
+    margin-left: 170px;
+}
+
+button:hover{
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s, transform 0.2s;
 }
 body{
-    background-color: rgba(255, 255, 255, 0.651);
+    background-color: rgba(242, 242, 242, 0.651);
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
+
 header{
-    min-width: 300px;
-    background: url(https://agropos.com.br/wp-content/uploads/2021/12/Imagem-2023-12-19T152422.003.png) no-repeat center  center/cover;
-    color: white;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+li{
+    margin-top: 24px;
+    font-size: 18px;
+}
+
 footer{
-    padding: 0;
-    margin: 0;
     display: flex;
     justify-content: center;
     align-items: end;
-}
-footer{
     background-color: rgb(34, 31, 31);
     padding: 20px;
+    margin-top: 24px;
 }
+
 footer > p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 32px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 24px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover {
+    color: #017143;
 }
